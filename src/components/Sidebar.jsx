@@ -46,7 +46,7 @@ const Sidebar = ({ children }) => {
           <div className='pt-4 px-7'>
             
            
-           <MenuItem item="Discussion Forum" route="/" icon={GoCommentDiscussion}/>
+           <MenuItem item="Disscussion Fourm" route="/" icon={GoCommentDiscussion}/>
           </div>
         </div>
 
