@@ -1,7 +1,8 @@
-// import { getAllNews } from "@/utils/getAllNews";
+
 
 import Card from "@/components/Card"
 import RightCard from "@/components/RightCard"
+
 
 
 const Home = async() => {
