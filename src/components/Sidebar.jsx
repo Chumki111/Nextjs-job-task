@@ -51,17 +51,21 @@ const Sidebar = ({ children }) => {
         </div>
 
       </div>
-      <div className="size-full min-h-screen bg-[#fff]">
-        {/* sidebar open and close button */}
-        {isOpen ? (
+      <div className="size-full min-h-screen">
+       <div className='bg-gray-400'>
+         {/* sidebar open and close button */}
+         {isOpen ? (
           <button className="fixed top-1/2 left-[260px] py-5 lg:left-[320px] transform -translate-y-1/2 bg-[#122033] text-white" onClick={closeSidebar}>
             <IoMdArrowDropright size={24} />
           </button>
         ) : (
-          <button className="fixed bg-[#122033] py-5 top-1/2 left-4 transform -translate-y-1/2 text-[#fff]" onClick={toggleSidebar}>
+          <div>
+            <button className="fixed bg-[#122033] py-5 top-1/2 left-4 transform -translate-y-1/2 text-[#fff]" onClick={toggleSidebar}>
             <IoMdArrowDropright size={24} />
           </button>
+            </div>
         )}
+       </div>
 
         {/* outlet - part  */}
         <div className=" p-2 md:px-10">{children}</div>
