@@ -1,6 +1,7 @@
 // import { getAllNews } from "@/utils/getAllNews";
 
 import Card from "@/components/Card"
+import RightCard from "@/components/RightCard"
 
 
 const Home = async() => {
@@ -24,7 +25,12 @@ const Home = async() => {
          </div>
           </div>
         <div className="col-span-3">
-          <p>lorem34333333333333333333333333333333333333</p>
+        <div className="py-4">
+        <span className="text-3xl lg:text-5xl font-semibold bg-gray-200 px-4 py-3 rounded-sm">Market Stories</span>
+      </div>
+      <div className="mt-8">
+      <RightCard/>
+      </div>
         </div>
       </div>
       
